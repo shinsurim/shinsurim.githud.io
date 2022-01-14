@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="login.css">
+
+    <script>
+        //const lobox= document.querySelector('#loginbox').value;
+        //const pabox= document.querySelector('#passwordbox').value;
+ 
+        function buttonClicked(){
+            const lobox= document.querySelector('#loginbox').value;
+            const pabox= document.querySelector('#passwordbox').value;
+
+            if (lobox && pabox){
+                alert('로그인 되었습니다')
+                location.href='mainpage.html'
+            }
+
+
+            else if (!lobox && pabox){
+                alert('아이디를 입력하세요')
+            }
+
+            else{
+                alert('비밀번호를 입력하세요')
+            }
+
+        }
+
+
+    </script>
+
+</head>
+<body>
+<div>
+    <div>
+        <button id="back" onclick="location.href='index.html'"> 뒤로가기↻</button>
+    </div>
+    
+    <div id='login'>
+        <h1 id="loginheader">로그인</h1>
+        <input id="loginbox" type="text" placeholder="ID ">
+        <input id="passwordbox" type="password" placeholder="PASSWORD">
+        <button id="loginbutton" onclick="buttonClicked()"> 로그인 </button>
+        <button id="signupbutton" onclick="location.href='signup.html'"> 회원가입 </button>
+        
+    </div>
+</div>
+
+
+    
+    
+    
+</body>
+</html>

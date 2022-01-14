@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'UhBeemysen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{background-color: lightyellow;}
+
+header{
+   
+    font-size: xx-large;
+    text-align: center;
+    border: 2px solid darkorange;;
+    border-style: dashed;
+
+}
+
+nav{
+    font-size: xx-large;   
+    border: 0px;
+    margin:5px;
+    
+}
+
+section{
+    font-size: xx-large;
+    margin:5px;
+    text-align: center;
+    border: 0px;
+}
+
+footer{
+    font-size: medium;
+    margin:5px;
+    text-align: center;
+    border: 0px;
+  
+}
+
+#loginButton{
+    font-size: x-large;
+    margin-left: 80%;
+    background: none;
+    border: 0px;
+}
+
+#signupButton{
+    font-size: x-large;
+    background: none;
+    border: 0px;
+}
+
+#myinfo_nav{
+    font-size: x-large;
+    background: none;
+    border: 0px;
+}
+
+#album_nav{
+    font-size: x-large;
+    background: none;
+    border: 0px;
+}
+
+#name{
+    font-family: 'UhBeemysen';
+
+}
+
+#loginButton{
+    font-family: 'UhBeemysen';
+
+}
+
+#signupButton{
+    font-family: 'UhBeemysen';
+
+}
+
+
+#myinfo_nav{
+    font-family: 'UhBeemysen';
+
+}
+
+
+#album_nav{
+    font-family: 'UhBeemysen';
+
+}
+
+
+#footer{
+    font-family: 'UhBeemysen';
+
+}
+
+

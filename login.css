@@ -1,0 +1,99 @@
+body{background-color: lightyellow;}
+@font-face {
+    font-family: 'UhBeemysen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+div{
+    border:0px solid darkorange;
+    float: left;
+}
+
+#back{
+    background: none;
+    font-family: 'UhBeemysen';
+    color: darkorange;
+    border: 0px solid darkorange;
+    font-size: x-large;
+   
+    
+
+}
+
+#login{
+    border:2px solid darkorange;
+    margin-left:150%;
+    margin-top: 25%;
+    width: 300px; height: 400px; text-align: center;  
+}
+
+
+
+
+
+#loginheader{
+    font-size:xx-large;
+    text-align: center;
+    margin-top: 50px;
+    color: darkorange;
+    
+}
+
+#loginbox{
+    font-size: x-large;
+    margin-top: 12%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 180px;
+    height: 26px;
+    border: 0px;
+    background-color: lightyellow;
+    border-bottom: 1px solid darkorange;
+    color: darkorange;
+}
+
+#passwordbox{
+    font-size: x-large;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 180px;
+    height: 26px;
+    border: 0px;
+    background-color: lightyellow;
+    border-bottom: 1px solid darkorange;
+    color: darkorange;
+}
+
+#loginbutton{
+    font-size: x-large;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 0px solid darkorange;
+    background: none;
+    color:  darkorange;
+
+}
+
+#signupbutton{
+    font-size: x-large;
+    color:  darkorange;
+    
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: none;
+    border: 0px;
+
+}
+
+#loginheader{font-family: 'UhBeemysen';}
+#loginbox{font-family: 'UhBeemysen';}
+#passwordbox{font-family: 'UhBeemysen';}
+#loginbutton{font-family: 'UhBeemysen';}
+#signupbutton{font-family: 'UhBeemysen';}

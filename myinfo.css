@@ -1,0 +1,59 @@
+body{background-color: lightyellow;}
+@font-face {
+    font-family: 'UhBeemysen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+#img{
+    margin-right: 10%;
+}
+
+header{
+    font-size: xx-large;
+    font-family: 'UhBeemysen';
+    margin-top: 5%;
+    margin-left: 10%;
+    
+   
+}
+#insta{
+    font-size: xxx-large;
+    color: black;
+}
+
+div{
+    float: left;
+    
+
+
+}
+
+#back{
+    background: none;
+    font-family: 'UhBeemysen';
+    color: darkorange;
+    border: 0px solid darkorange;
+    font-size: x-large;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
